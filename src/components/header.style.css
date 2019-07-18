@@ -4,7 +4,7 @@
 	justify-content: center
 }
 
-.header > img {
+.header > a > img {
 	width: 300px;
 	text-align: center;
 }

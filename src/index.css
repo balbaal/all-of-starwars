@@ -21,6 +21,25 @@ code {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul > li {
+  color: yellow;
+  padding: 0;
+  margin-left: 1em;
+}
+
 p, h1, h2 {
   color: white;
+}
+
+h1 {
+  font-family: 'Righteous', cursive;
+}
+
+p, h2 {
+  font-family: 'Montserrat', sans-serif;
 }

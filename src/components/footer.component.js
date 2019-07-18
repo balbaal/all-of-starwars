@@ -5,9 +5,7 @@ const Footer = () => {
 		container: {
 			padding: "1em 0",
 			marginTop: "2em",
-			position: "absolute",
 			width: "100%",
-			bottom: "0"
 		},
 		title: {
 			textAlign: "center",
