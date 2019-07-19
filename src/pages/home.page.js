@@ -5,13 +5,6 @@ import Layout from "../components/layout.component"
 import Title from "../components/title.component"
 
 class Home extends React.Component {
-	constructor (props) {
-		super(props)
-		this.state = {
-			
-		}
-	}
-	
 	render() {
 		const styles = {
 			container: {
@@ -28,6 +21,7 @@ class Home extends React.Component {
 			<Layout>
 				<Title title="List Movies" />
 				{
+					this.props.isLoading ? <h2 style={{color: "yellow"}}>Loading . . .</h2> :
 					this.props.movies.map(movie => (
 						<div key={movie.episode_id} style={styles.container}>
 							<h2><Link to={`/detail-movie/${movie.episode_id}`}>{movie.title}</Link></h2>
